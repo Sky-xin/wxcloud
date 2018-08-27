@@ -11,10 +11,14 @@
 
     <groupId>cn.youyanni.wxcloud</groupId>
     <artifactId>config</artifactId>
+    <packaging>pom</packaging>
 
     <name>config</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
+    <modules>
+        <module>../authservice</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
